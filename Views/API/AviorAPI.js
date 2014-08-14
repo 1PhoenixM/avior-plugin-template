@@ -7,6 +7,7 @@
 //  /<model>/update = PUT
 //  /<model>/destroy = DELETE
 //You can add other parsing functions or parameters here to Avior.prototype too.
+//Create an API file for a group of calls that match, such as for /flow/find, /flow/create and /flow/destroy
 
 define([
 	"Models/AviorModel"

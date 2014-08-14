@@ -1,6 +1,7 @@
 //AviorView.js
 //The view decides the behavior of the front-end.
 //Create a new instance of your API file, then perform a .fetch() to get data.
+//Provide a view file for HTML elements that render with data, such as tables and divs
 //Render will render your HTML template with the data inside (example, your use case may vary):
 //    this.$el.html(this.template({Tests: this.collection.models})).trigger('create');
 //    return this;
