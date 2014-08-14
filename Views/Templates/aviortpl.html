@@ -1,0 +1,20 @@
+<!--
+aviortpl.html
+
+HTML templates decide the layout for pages in the GUI.
+<html> and <body> tags are already in place, just add divs and tables, and any other HTML elements.
+This is an example of a table template.
+The property names are derived directly from the JSON.
+For more information on building a template, refer to http://underscorejs.org/
+ -->
+
+<h4> <%= "Test Plugin (" + Tests.length + ")" %> </h4>
+<table id=<%= "aviorTable" + DPID %> border="1" cellspacing="1" cellpadding="5" class="aviorTable">
+	<tbody>
+		<tr>
+			<th> Description </th>
+			<th> Name </th>
+			<th> ID </th>
+		</tr>
+	</tbody>
+</table>
