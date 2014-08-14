@@ -16,5 +16,5 @@ define([
                         return av.get("DPID"); //the comparator lets the front-end know how to distinguish between one switch and a group of switches here
                 },
         });
-        return SwitchCollection;
+        return AviorCollection;
 });
