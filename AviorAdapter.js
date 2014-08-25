@@ -7,7 +7,7 @@ module.exports = {
 
 	
 	floodlight: {getModel: restCall('GET', '/rest/api/call/for/floodlight'),
-			TO_OFP: {'AviorPropertyName': 'floodlightPropName'},
+			TO_OFP: {AviorPropertyName: 'floodlightPropName'},
 		     	parser: function(object){ 
 				//parse raw JSON here to an array of objects like:
 				//[{DPID:"XX:XX:XX:XX:XX:XX:XX:XX", SomeModelProperty: 1},
@@ -17,7 +17,7 @@ module.exports = {
 			},
 
 	opendaylight: {getModel: restCall('GET', '/rest/api/call/for/opendaylight'),
-			TO_OFP: {'AviorPropertyName': 'opendaylightPropName'},
+			TO_OFP: {AviorPropertyName: 'opendaylightPropName'},
 		     	parser: function(object){ 
 				//parse raw JSON here to an array of objects like:
 				//[{DPID:"XX:XX:XX:XX:XX:XX:XX:XX", SomeModelProperty: 1},
